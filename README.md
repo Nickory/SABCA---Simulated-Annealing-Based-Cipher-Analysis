@@ -46,7 +46,7 @@ You can access the program and all its resources from the following Google Drive
 - **Encryption and Decryption**: Successfully implemented a substitution mapping system for consistent encryption-decryption workflows.
 - **Statistical Analysis**: Visualized plaintext and ciphertext letter frequency distributions to reveal encryption patterns and vulnerabilities.
 - **Simulated Annealing Optimization**: Balanced computational efficiency and decryption accuracy using probabilistic language models and iterative refinement of mappings.
-- 
+  
 ## 📊 Experimental Results
 
 ### Visualization of Frequencies

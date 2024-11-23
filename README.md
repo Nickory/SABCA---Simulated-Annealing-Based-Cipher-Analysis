@@ -32,23 +32,42 @@ SABCA is implemented with a **graphical user interface (GUI)** and **command-lin
 - **Statistical Analysis**: Visualized plaintext and ciphertext letter frequency distributions to reveal encryption patterns and vulnerabilities.
 - **Simulated Annealing Optimization**: Balanced computational efficiency and decryption accuracy using probabilistic language models and iterative refinement of mappings.
 ## 📊 Experimental Results
+
 ### Visualization of Frequencies
 The following figure compares the frequency distributions of letters in plaintext and ciphertext:
 
-[Insert Frequency Distribution Image]
+![Frequency Distribution](images/frequency_distribution.png)
+
+
 ### Simulated Annealing Progression
 The figure below shows the evolution of decryption accuracy and fitness score over iterations:
 
-[Insert Fitness Score Progression Image]
+![Fitness Score Progression](images/fitness_progression.png)
+
 ### GUI Demonstration
 The GUI provides real-time feedback on decryption progress and accuracy:
 
-[Insert GUI Example Image]
+![GUI Demonstration](images/gui_demo.png)
+
 ## 💖 Support Us
+
 Help us continue improving **SABCA**! You can:
-1. **Star the Repository**: Show your support by starring the GitHub repository.
-2. **Contribute**: Submit issues or pull requests to help improve the project.
-3. **Donate**: Support the project by donating to the QR code below:
+
+1. **Star the Repository**:  
+   Show your support by starring the GitHub repository.
+
+2. **Contribute**:  
+   Submit issues or pull requests to help improve the project.
+
+3. **Donate**:  
+   Support the project by donating to the QR codes below:
+
+### QR Code for WeChat
+![WeChat QR Code](images/qr_code_wechat.png)
+
+### QR Code for Alipay
+![Alipay QR Code](images/qr_code_alipay.png)
+
 
 [Insert QR Code Here]
 ## 📜 Citation

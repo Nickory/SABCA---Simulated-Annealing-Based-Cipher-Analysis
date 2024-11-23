@@ -17,36 +17,11 @@ SABCA is implemented with a **graphical user interface (GUI)** and **command-lin
 ### Prerequisites
 - Python 3.8 or higher  
 - Libraries: `nltk`, `matplotlib`, `tkinter`
-# Installation Steps
 
-# 1. Clone the repository:
-git clone https://github.com/your-repo/sabca.git
-cd sabca
-
-# 2. Install dependencies:
-pip install -r requirements.txt
-
-# 3. Run the program:
-# GUI mode:
-python main.py
-
-# CLI mode:
-python cli.py
-## 🎮 How to Use
-# GUI Mode
-# 1. Launch the GUI:
-python main.py
-
-# 2. Input plaintext to encrypt or decrypt, or provide ciphertext to crack.
-# 3. View live progress of decryption, fitness score optimization, and substitution mapping.
-# CLI Mode
-# 1. Start the CLI version:
-python cli.py
-
-# 2. Select an option from the menu:
-#    - Encrypt: Input plaintext and receive ciphertext with the key.
-#    - Decrypt: Input ciphertext and a key to decrypt it.
-#    - Crack: Automatically decrypt ciphertext without a key.
+###  2. Select an option from the menu:
+###     - Encrypt: Input plaintext and receive ciphertext with the key.
+###     - Decrypt: Input ciphertext and a key to decrypt it.
+###     - Crack: Automatically decrypt ciphertext without a key.
 ## 🔍 Experiment Details
 ### Objectives
 1. Implement a monoalphabetic substitution cipher for encryption and decryption.

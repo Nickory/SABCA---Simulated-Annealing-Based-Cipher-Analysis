@@ -56,10 +56,11 @@ Help us continue improving **SABCA**! You can:
 If you use **SABCA** in your research, please cite:
   ```bibtex
      @misc{sabca2024, author = {Ziheng Wang},
- title = {SABCA: Simulated Annealing-Based Cipher Analysis},
-year = {2024}, howpublished = {GitHub Repository},
-url = {https://github.com/Nickory/SABCA---Simulated-Annealing-Based-Cipher-Analysis} }
-     ```
+           title = {SABCA: Simulated Annealing-Based Cipher Analysis},
+           year = {2024}, howpublished = {GitHub Repository},
+           url = {https://github.com/Nickory/SABCA---Simulated-Annealing-Based-Cipher-Analysis} }
+
+```
 
 
 ## 🔗 Links

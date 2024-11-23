@@ -32,7 +32,7 @@ You can access the program and all its resources from the following Google Drive
 - Optimized simulated annealing algorithm for faster convergence.
 - Improved GUI with real-time progress updates and visualizations.
 - Bug fixes and performance improvements.
-- 
+
 ###  Select an option from the menu:
 ###     - Encrypt: Input plaintext and receive ciphertext with the key.
 ###     - Decrypt: Input ciphertext and a key to decrypt it.

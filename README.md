@@ -18,6 +18,21 @@ SABCA is implemented with a **graphical user interface (GUI)** and **command-lin
 - Python 3.8 or higher  
 - Libraries: `nltk`, `matplotlib`, `tkinter`
 
+## 🚀 Latest Version: v1.4.1
+
+The current version of **SABCA (v1.4.1)** is now available for download.  
+You can access the program and all its resources from the following Google Drive link:
+
+🔗 **[Download SABCA v1.4.1](https://drive.google.com/your-link-here)**
+
+---
+
+### What's New in v1.4.1
+- Enhanced decryption accuracy with updated quadgram model.
+- Optimized simulated annealing algorithm for faster convergence.
+- Improved GUI with real-time progress updates and visualizations.
+- Bug fixes and performance improvements.
+- 
 ###  Select an option from the menu:
 ###     - Encrypt: Input plaintext and receive ciphertext with the key.
 ###     - Decrypt: Input ciphertext and a key to decrypt it.

@@ -18,7 +18,7 @@ SABCA is implemented with a **graphical user interface (GUI)** and **command-lin
 - Python 3.8 or higher  
 - Libraries: `nltk`, `matplotlib`, `tkinter`
 
-###  2. Select an option from the menu:
+###  Select an option from the menu:
 ###     - Encrypt: Input plaintext and receive ciphertext with the key.
 ###     - Decrypt: Input ciphertext and a key to decrypt it.
 ###     - Crack: Automatically decrypt ciphertext without a key.
@@ -52,15 +52,11 @@ Help us continue improving **SABCA**! You can:
 
 [Insert QR Code Here]
 ## 📜 Citation
-If you use SABCA in your research, please cite:
 
-@misc{sabca2024,
-  author = {Ziheng Wang},
-  title = {SABCA: Simulated Annealing-Based Cipher Analysis},
-  year = {2024},
-  howpublished = {GitHub Repository},
-  url = {https://github.com/Nickory/SABCA---Simulated-Annealing-Based-Cipher-Analysis}
-}
+If you use **SABCA** in your research, please cite:
+
+@misc{sabca2024, author = {Ziheng Wang}, title = {SABCA: Simulated Annealing-Based Cipher Analysis}, year = {2024}, howpublished = {GitHub Repository}, url = {https://github.com/Nickory/SABCA---Simulated-Annealing-Based-Cipher-Analysis} }
+
 ## 🔗 Links
 - [GitHub Repository](https://github.com/Nickory/SABCA---Simulated-Annealing-Based-Cipher-Analysis)
 - [Documentation](https://github.com/Nickory/SABCA---Simulated-Annealing-Based-Cipher-Analysis/wiki)

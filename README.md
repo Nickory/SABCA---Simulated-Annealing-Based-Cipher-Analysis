@@ -1,86 +1,92 @@
 # SABCA - Simulated Annealing-Based Cipher Analysis
+**SABCA** (Simulated Annealing-Based Cipher Analysis) is an advanced Python library designed for encrypting, decrypting, and cracking monoalphabetic substitution ciphers. It combines **probabilistic language models**, **linguistic syntax analysis**, and **optimization techniques** like **simulated annealing** to provide a robust and automated solution for substitution cipher analysis. 
 
-**SABCA** (Simulated Annealing-Based Cipher Analysis) is a Python library for encrypting, decrypting, and cracking substitution ciphers. It implements a **novel automated cracking method** proposed by us, combining **quadgram statistical analysis**, **linguistic syntax modeling**, and **optimization-based simulated annealing**. SABCA provides both CLI and GUI interfaces for flexible and interactive use.
-
+SABCA is implemented with a **graphical user interface (GUI)** and **command-line interface (CLI)** to ensure usability for both beginners and advanced users.
 ## 🌟 Features
-
-- **Automated Cipher Cracking**:
-  Utilize our SABCA algorithm to efficiently break substitution ciphers.
-- **Encryption/Decryption**:
-  Encrypt plaintext or decrypt ciphertext using substitution keys.
-- **Real-Time Visualization**:
-  GUI includes live charts for fitness score and cracking progress.
-- **Flexible Interaction**:
-  Offers both GUI and CLI options for diverse user needs.
-- **Educational and Practical**:
-  Combines linguistics, probability, and optimization for cryptanalysis.
-
+- **Automated Cipher Cracking**:  
+  Break monoalphabetic substitution ciphers using simulated annealing and statistical methods.
+- **Encryption/Decryption**:  
+  Encrypt plaintext or decrypt ciphertext using user-provided or randomly generated keys.
+- **Real-Time Visualization**:  
+  GUI includes live charts for decryption progress and fitness score optimization.
+- **Performance Across Text Types**:  
+  Works effectively on both structured (e.g., literature) and unstructured (e.g., technical) text.
+- **Fully Open-Source**:  
+  The full implementation, including a GUI, is open-sourced for reproducibility and educational purposes.
 ## 📦 Installation
-
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.8 or higher  
 - Libraries: `nltk`, `matplotlib`, `tkinter`
+# Installation Steps
 
-### Installation Steps
-1. Clone the repository:
+# 1. Clone the repository:
+git clone https://github.com/your-repo/sabca.git
+cd sabca
 
-2. Install dependencies:
+# 2. Install dependencies:
+pip install -r requirements.txt
 
-3. Run the program:
-- **GUI mode**:
-  ```
-  python main.py
-  ```
-- **CLI mode**:
-  ```
-  python cli.py
-  ```
+# 3. Run the program:
+# GUI mode:
+python main.py
+
+# CLI mode:
+python cli.py
 ## 🎮 How to Use
+# GUI Mode
+# 1. Launch the GUI:
+python main.py
 
-### GUI Mode
-1. Launch the GUI:
-2. Use the tabs for encryption, decryption, or cracking.
-3. Visualize cracking progress with real-time charts.
+# 2. Input plaintext to encrypt or decrypt, or provide ciphertext to crack.
+# 3. View live progress of decryption, fitness score optimization, and substitution mapping.
+# CLI Mode
+# 1. Start the CLI version:
+python cli.py
 
-### CLI Mode
-1. Start the CLI version:
-2. Select an option from the menu:
-- **Encrypt**: Input plaintext and receive ciphertext with the key.
-- **Decrypt**: Input ciphertext and a key to decrypt it.
-- **Crack**: Automatically decrypt ciphertext without a key.
-## 🔍 Mathematical Principles
+# 2. Select an option from the menu:
+#    - Encrypt: Input plaintext and receive ciphertext with the key.
+#    - Decrypt: Input ciphertext and a key to decrypt it.
+#    - Crack: Automatically decrypt ciphertext without a key.
+## 🔍 Experiment Details
+### Objectives
+1. Implement a monoalphabetic substitution cipher for encryption and decryption.
+2. Demonstrate statistical vulnerabilities using letter frequency analysis.
+3. Develop an automated cracking method using simulated annealing.
+### Key Insights
+- **Encryption and Decryption**: Successfully implemented a substitution mapping system for consistent encryption-decryption workflows.
+- **Statistical Analysis**: Visualized plaintext and ciphertext letter frequency distributions to reveal encryption patterns and vulnerabilities.
+- **Simulated Annealing Optimization**: Balanced computational efficiency and decryption accuracy using probabilistic language models and iterative refinement of mappings.
+## 📊 Experimental Results
+### Visualization of Frequencies
+The following figure compares the frequency distributions of letters in plaintext and ciphertext:
 
-1. **Quadgram Statistical Analysis**:
-   - Text plausibility is evaluated using the frequencies of four-character sequences (quadgrams).
-   - From the Brown Corpus, the probability of a quadgram is computed as:
-     \[
-     P(\text{quadgram}) = \log_{10}\left(\frac{\text{frequency of quadgram}}{\text{total quadgrams}}\right)
-     \]
-   - The fitness score of a decrypted text is the sum of log probabilities of all its quadgrams:
-     \[
-     \text{Fitness} = \sum_{i=1}^{n} P(\text{quadgram}_i)
-     \]
+[Insert Frequency Distribution Image]
+### Simulated Annealing Progression
+The figure below shows the evolution of decryption accuracy and fitness score over iterations:
 
-2. **Simulated Annealing Optimization**:
-   - Substitution keys are refined iteratively:
-     - **Initial State**: Starts with a random substitution key.
-     - **Key Mutation**: Two random key mappings are swapped.
-     - **Acceptance Criterion**: Accepts mutations based on fitness improvement (\( \Delta \text{fitness} \)):
-       \[
-       P(\text{accept}) = 
-       \begin{cases} 
-       1, & \Delta \text{fitness} > 0 \\ 
-       \exp\left(\frac{\Delta \text{fitness}}{T}\right), & \Delta \text{fitness} \leq 0 
-       \end{cases}
-       \]
-       where \( T \) is the temperature parameter.
+[Insert Fitness Score Progression Image]
+### GUI Demonstration
+The GUI provides real-time feedback on decryption progress and accuracy:
 
-3. **Cooling Schedule**:
-   - Temperature \( T \) decreases exponentially over iterations:
-     \[
-     T = T_0 \cdot \alpha^k
-     \]
-     Here, \( T_0 \) is the initial temperature, \( \alpha \) is the cooling rate, and \( k \) is the iteration count.
+[Insert GUI Example Image]
+## 💖 Support Us
+Help us continue improving **SABCA**! You can:
+1. **Star the Repository**: Show your support by starring the GitHub repository.
+2. **Contribute**: Submit issues or pull requests to help improve the project.
+3. **Donate**: Support the project by donating to the QR code below:
 
-4. **Convergence**:
-   - The algorithm balances exploration and exploitation to maximize fitness, yielding the most probable decryption.
+[Insert QR Code Here]
+## 📜 Citation
+If you use SABCA in your research, please cite:
+
+@misc{sabca2024,
+  author = {Ziheng Wang},
+  title = {SABCA: Simulated Annealing-Based Cipher Analysis},
+  year = {2024},
+  howpublished = {GitHub Repository},
+  url = {https://github.com/Nickory/SABCA---Simulated-Annealing-Based-Cipher-Analysis}
+}
+## 🔗 Links
+- [GitHub Repository](https://github.com/Nickory/SABCA---Simulated-Annealing-Based-Cipher-Analysis)
+- [Documentation](https://github.com/Nickory/SABCA---Simulated-Annealing-Based-Cipher-Analysis/wiki)
+

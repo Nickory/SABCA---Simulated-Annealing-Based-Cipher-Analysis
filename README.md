@@ -31,23 +31,29 @@ SABCA is implemented with a **graphical user interface (GUI)** and **command-lin
 - **Encryption and Decryption**: Successfully implemented a substitution mapping system for consistent encryption-decryption workflows.
 - **Statistical Analysis**: Visualized plaintext and ciphertext letter frequency distributions to reveal encryption patterns and vulnerabilities.
 - **Simulated Annealing Optimization**: Balanced computational efficiency and decryption accuracy using probabilistic language models and iterative refinement of mappings.
+- 
 ## 📊 Experimental Results
 
 ### Visualization of Frequencies
 The following figure compares the frequency distributions of letters in plaintext and ciphertext:
 
-![Frequency Distribution](images/frequency_distribution.png)
-
+<div style="text-align: center;">
+  <img src="images/frequency_distribution.png" alt="Frequency Distribution" style="width: 60%; height: auto; border: 1px solid #ddd; border-radius: 8px; padding: 5px;">
+</div>
 
 ### Simulated Annealing Progression
 The figure below shows the evolution of decryption accuracy and fitness score over iterations:
 
-![Fitness Score Progression](images/fitness_progression.png)
+<div style="text-align: center;">
+  <img src="images/fitness_progression.png" alt="Fitness Score Progression" style="width: 60%; height: auto; border: 1px solid #ddd; border-radius: 8px; padding: 5px;">
+</div>
 
 ### GUI Demonstration
 The GUI provides real-time feedback on decryption progress and accuracy:
 
-![GUI Demonstration](images/gui_demo.png)
+<div style="text-align: center;">
+  <img src="images/gui_demo.png" alt="GUI Demonstration" style="width: 60%; height: auto; border: 1px solid #ddd; border-radius: 8px; padding: 5px;">
+</div>
 
 ## 💖 Support Us
 
@@ -76,9 +82,6 @@ Help us continue improving **SABCA**! You can:
 </table>
 
 
-
-
-[Insert QR Code Here]
 ## 📜 Citation
 
 If you use **SABCA** in your research, please cite:

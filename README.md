@@ -62,11 +62,17 @@ Help us continue improving **SABCA**! You can:
 3. **Donate**:  
    Support the project by donating to the QR codes below:
 
-### QR Code for WeChat
-![WeChat QR Code](images/qr_code_wechat.png)
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="text-align: center; margin: 10px;">
+    <p>WeChat</p>
+    <img src="images/qr_code_wechat.png" alt="WeChat QR Code" style="width: 150px; height: auto;">
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <p>Alipay</p>
+    <img src="images/qr_code_alipay.png" alt="Alipay QR Code" style="width: 150px; height: auto;">
+  </div>
+</div>
 
-### QR Code for Alipay
-![Alipay QR Code](images/qr_code_alipay.png)
 
 
 [Insert QR Code Here]

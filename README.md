@@ -23,7 +23,7 @@ SABCA is implemented with a **graphical user interface (GUI)** and **command-lin
 The current version of **SABCA (v1.4.1)** is now available for download.  
 You can access the program and all its resources from the following Google Drive link:
 
-🔗 **[Download SABCA v1.4.1](https://drive.google.com/your-link-here)**
+🔗 **[Download SABCA v1.4.1](https://drive.google.com/file/d/100EqMfVo2JEOf7wdOC51h_eAIKZt7EJs/view?usp=drive_link)**
 
 ---
 

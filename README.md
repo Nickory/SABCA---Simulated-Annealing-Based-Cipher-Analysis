@@ -58,7 +58,8 @@ If you use **SABCA** in your research, please cite:
      @misc{sabca2024,
            author = {Ziheng Wang},
            title = {SABCA: Simulated Annealing-Based Cipher Analysis},
-           year = {2024}, howpublished = {GitHub Repository},
+           year = {2024},
+           howpublished = {GitHub Repository},
            url = {https://github.com/Nickory/SABCA---Simulated-Annealing-Based-Cipher-Analysis} }
 
 ```

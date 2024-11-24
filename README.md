@@ -1,6 +1,10 @@
 # SABCA - Simulated Annealing-Based Cipher Analysis
 **SABCA** (Simulated Annealing-Based Cipher Analysis) is an advanced Python library designed for encrypting, decrypting, and cracking monoalphabetic substitution ciphers. It combines **probabilistic language models**, **linguistic syntax analysis**, and **optimization techniques** like **simulated annealing** to provide a robust and automated solution for substitution cipher analysis. 
 
+<div style="text-align: center;">
+  <img src="images/SABCA.png" alt="SABCA" style="width: 60%; height: auto; border: 1px solid #ddd; border-radius: 8px; padding: 5px;">
+</div>
+
 SABCA is implemented with a **graphical user interface (GUI)** and **command-line interface (CLI)** to ensure usability for both beginners and advanced users.
 ## 🌟 Features
 - **Automated Cipher Cracking**:  

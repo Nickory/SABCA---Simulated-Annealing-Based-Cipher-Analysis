@@ -116,8 +116,4 @@ If you use **SABCA** in your research, please cite:
 - [GitHub Repository](https://github.com/Nickory/SABCA---Simulated-Annealing-Based-Cipher-Analysis)
 - [Documentation](https://github.com/Nickory/SABCA---Simulated-Annealing-Based-Cipher-Analysis/wiki)
 
-- <div style="text-align: center;">
-  <img src="images/SABCA.png" alt="SABCA" style="width: 60%; height: auto; border: 1px solid #ddd; border-radius: 8px; padding: 5px;">
-</div>
-
 
